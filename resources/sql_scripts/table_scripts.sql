@@ -134,7 +134,7 @@ CREATE TABLE s3_bucket_info (
 
 --s3 bucket data
 INSERT INTO s3_bucket_info (bucket_name, status, created_date, updated_date)
-VALUES ('youtube-project-testing', 'active', NOW(), NOW());
+VALUES ('retail-project-01', 'active', NOW(), NOW());
 
 
 --Data Mart customer
@@ -143,7 +143,7 @@ CREATE TABLE customers_data_mart (
     full_name VARCHAR(100),
     address VARCHAR(200),
     phone_number VARCHAR(20),
-    sales_date_month DATE,
+    sales_date_month VARCHAR(10),
     total_sales DECIMAL(10, 2)
 );
 

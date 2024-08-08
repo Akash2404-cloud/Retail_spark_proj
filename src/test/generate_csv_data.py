@@ -24,7 +24,8 @@ sales_persons = {
 start_date = datetime(2023, 3, 3)
 end_date = datetime(2023, 8, 20)
 
-file_location = "C:\\Users\\nikita\\Documents\\data_engineering\\spark_data"
+file_location = "D:\\Data_Eng\\spark_data"
+# os.listdir(file_location)
 csv_file_path = os.path.join(file_location, "sales_data.csv")
 with open(csv_file_path, "w", newline="") as csvfile:
     csvwriter = csv.writer(csvfile)

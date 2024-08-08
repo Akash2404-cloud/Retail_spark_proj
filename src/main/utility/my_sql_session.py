@@ -4,8 +4,8 @@ def get_mysql_connection():
     connection = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="password",
-        database="manish"
+        password="root123",
+        database="retail_project"
     )
     return connection
 

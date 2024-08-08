@@ -17,3 +17,5 @@ def delete_local_file(delete_file_path):
         traceback_message = traceback.format_exc()
         print(traceback_message)
         raise e
+
+

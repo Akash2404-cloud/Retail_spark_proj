@@ -1,6 +1,7 @@
 import os
 import csv
 import random
+from resources.dev import config
 from datetime import datetime
 
 customer_ids = list(range(1, 21))
@@ -21,7 +22,7 @@ sales_persons = {
     123: [7, 8, 9]
 }
 
-file_location = "C:\\Users\\nikita\\Documents\\data_engineering\\spark_data"
+file_location = "D:\\Data_Eng\\spark_data"
 
 if not os.path.exists(file_location):
     os.makedirs(file_location)
