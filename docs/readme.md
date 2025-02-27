@@ -6,3 +6,5 @@
 ## Project Architecture
 ![image](https://github.com/user-attachments/assets/a5c9c8e1-71ac-493e-8eeb-4990eb748002)
 
+## Data Tables (Star Schema)
+![image](https://github.com/user-attachments/assets/71199937-723c-40f2-a1ab-0412242faeb2)
